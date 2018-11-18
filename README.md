@@ -1,17 +1,17 @@
 # transpj
 
-How to user
+## How to user
 
-the prepare:
- install git,gralde,java
+- the prepare:
+     - install git,gralde,java
  
-first step
- git clone https://github.com/xflduke/transpj.git
+- first step
+    - git clone https://github.com/xflduke/transpj.git
 
-second step
- move to trasnpj
- bash gradlew bootrun (macos)
- gradlew.bat bootrun (windows)
+- second step
+    - move to trasnpj
+    - bash gradlew bootrun (macos)
+    - gradlew.bat bootrun (windows)
  
-third step
- localhost:8080/
+- third step
+    - localhost:8080/
