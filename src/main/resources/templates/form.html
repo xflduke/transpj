@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form action="#" th:action="@{/}" th:object="${userForm}" method="post">
+            <table>
+                <tr>
+                    <td>User ID:</td>
+                    <td><input type="text" th:field="*{name}" /></td>
+                    <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+                </tr>
+                <tr>
+                    <td>Random Key:</td>
+                    <td><input type="text" th:field="*{randomKey}" /></td>
+                    <td th:if="${#fields.hasErrors('randomKey')}" th:errors="*{randomKey}">Key Error</td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
